@@ -27,6 +27,7 @@
 
 ## ⌨️ Cvičenia na SQL
 **Vzorové skripty zo školenia a webu [SQLzoo](https://sqlzoo.net/wiki/SQL_Tutorial)**
+### Práca s DB a tabuľkami
 ```sql
 -- Vypis databaz/schem
 show databases;
@@ -44,7 +45,9 @@ show tables;
 show columns from world;
 show fields from world;
 describe world;
-
+```
+### Práca s dátovými typmi a údajmi
+```sql
 -- Datove typy/typy udajov
 -- Integer (Cele cisla)
 select -2;
@@ -78,7 +81,9 @@ select 5 div 2;
 select 5 mod 2, 5 % 2;
 
 select 5.0/0, 0.0/0;
-
+```
+### Select (výber) dát z tabuľky a vytvorenie tabuľky
+```sql
 -- Vyber dat z tabulky/databazy
 select name, population, population + 1
 from gisq.world;
