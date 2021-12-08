@@ -25,6 +25,7 @@
 * SQLite, MySQL, PostgreSQL ([**Dbeaver**](https://dbeaver.io/download/), phpMyAdmin, SQL)
 * Microsoft Excel a Microsoft Word
 
+## ⌨️ Cvičenia na SQL
 **Vzorové skripty zo školenia a webu [SQLzoo](https://sqlzoo.net/wiki/SQL_Tutorial)**
 ```sql
 -- Vypis databaz/schem
